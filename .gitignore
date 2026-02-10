@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# Data files
+data/raw/*.csv
+data/logs/*.log
+data/logs/*.json
+*.csv
+!requirements.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Google Cloud credentials
+*.json
+!package.json
+!package-lock.json
+
+# Checkpoints
+checkpoint.json
